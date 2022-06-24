@@ -8,6 +8,8 @@ if(pr>=80 && pr<=100){
     document.write("You are in IInd Division.");
 }else if(pr>=33 && pr<=45){
     document.write("You are in IIIrd Division.");
-}else{
+}else if(pr<33){
     document.write("You are Fail.");
+}else{
+    document.write("Please enter a valid entry.")
 }
