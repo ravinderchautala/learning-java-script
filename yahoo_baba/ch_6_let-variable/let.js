@@ -1,7 +1,7 @@
 let z="hello world ";
 var x="Ravinder";
 var x="Ravinder ";
-z ="hello guys "
+z ="hello guys ";
 // constant variable
 const second= "hello";
 // second="world"; XXXXX
