@@ -1,0 +1,23 @@
+var a = "99";
+var b = true;
+var c ="78.88 years";
+var d = 100;
+var e = 97.6876687;
+var num1 = Number(a);
+var num2 = Number(b);
+var num3 = parseInt(c);
+var num4 = parseFloat(c);
+var num5 = Number.isFinite(c);
+var num5_1 = Number.isFinite(d);
+var num6 = Number.isInteger(c);
+var num7 = e.toFixed(2);
+var num8 = e.toPrecision(3);
+
+document.write(num1+num2+"<br>");
+document.write(num3+"<br>");
+document.write(num4+"<br>");
+document.write(num5+"<br>");
+document.write(num5_1+"<br>");
+document.write(num6+"<br>");
+document.write(num7+"<br>");
+document.write(num8+"<br>");
