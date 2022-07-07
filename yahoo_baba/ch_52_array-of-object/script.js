@@ -6,5 +6,5 @@ var student = [
 ];
 console.log();
 for (var  a=0;a < student.length; a++){
-    document.write(student[a].name+" " + "<br>")
+    document.write(student[a].name+" "+ student[a].age + "<br>")
 }
