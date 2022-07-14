@@ -1,0 +1,22 @@
+#outer {
+    background: yellow;
+    height: 50vh;
+}
+#inner{
+    background: pink;
+    height: 30vh;
+    margin: 10vh;
+}
+div{
+    border: 2px solid black;
+}
+#inner div{
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+    background: white;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
