@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hasAttribute and hasChildNodes</title>
+    <style>
+        #outer {
+    background: yellow;
+    height: 50vh;
+}
+#inner{
+    background: pink;
+    height: 30vh;
+    margin: 10vh;
+}
+div{
+    border: 2px solid black;
+}
+#inner div{
+    height: 50px;
+    width: 70px;
+    margin-left: 20px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div id="outer" class="outer" style="border: 2px solid green">
+        <h3> outer </h3>
+        <div id="inner">
+            <h3>inner</h3>
+            <div>1</div>
+            <div>2</div>
+            <div id="child-3" >3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
