@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Events II</title>
+  </head>
+  <body>
+    <form action="" onsubmit="submitFunc()">
+      <label for="">Name</label>
+      <input
+        type="text"
+        id="fname"
+        placeholder="name"
+        onfocus="focusFunction(this)"
+        onblur="blurFunc(this)"
+        onchange="changeFunc(this)"
+        onselect="selectFunc(this)"
+        required
+        oninvalid="alert('plaese enter your name.')"
+      />
+      <br /><br />
+      <label for="">Class</label>
+      <input
+        type="text"
+        id=""
+        onfocus="focusFunction(this)"
+        onblur="blurFunc(this)"
+      />
+      <br /><br />
+      <label for="">Country</label>
+      <select
+        name=""
+        id=""
+        onfocus="focusFunction(this)"
+        onblur="blurFunc(this)"
+        onchange="changeFunc(this)"
+      >
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Japan">Japan</option>
+      </select>
+      <input type="submit">
+      <br /><br />
+    </form>
+    <div id="test" style="border: 1px solid red"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
