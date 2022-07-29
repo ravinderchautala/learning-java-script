@@ -7,8 +7,8 @@ if (age > 10 && age < 20) {
     alert("Sorry you are not eligibile.")
 }*/
 // Ques - 2
-/*a = parseInt(a);
-let a = prompt("Enter a day number")
+/*let a = prompt("Enter a day number")
+a = Number.parseInt(a);
 switch (a) {
     case 1: alert("Monday")
         break
@@ -28,7 +28,7 @@ switch (a) {
 }*/
 // Ques-3
 let a = prompt("Enter a number")
-a = parseInt(a)
+a = Number.parseInt(a)
 if(a%2==0){
     alert("Number is divisible by 2.")
 } else if(a%3==0){
