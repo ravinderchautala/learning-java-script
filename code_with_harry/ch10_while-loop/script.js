@@ -1,6 +1,8 @@
 let a = prompt("Enter a number:");
 a =Number.parseInt(a);
 let i = 0;
+
+
 // While loop
 
 // while(i<a){
