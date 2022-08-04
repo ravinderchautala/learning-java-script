@@ -2,8 +2,9 @@
 console.log("Vin\"".length)
 
 // Ques 2
-let name ="Vinita Ravinder"
-console.log(name.includes("Vinita"))
+let name ="Vinita Jatta"
+const nick = "Vinita"
+console.log(`The name of your gf is ${nick} so I changed her name from "${nick}" to ${name.includes("Vinita")? name.replace("Vinita","Anu and"):("nothing")} is your name.`)
 console.log(name.endsWith("Vinita"))
 console.log(name.startsWith("Vinita"))
 
