@@ -36,3 +36,16 @@ let firstFruit = fruits[0]
 fruits[fruits.length-1]="kela"
 console.log(firstFruit)
 console.log(fruits)
+
+// 5th challenge - Functions
+let calculateTotal = (subTotal,tax) =>{
+    return subTotal+tax
+}
+let order1,order2,order3;
+order1 = calculateTotal(354,34)
+order2 = calculateTotal(39867,490)
+order3 = calculateTotal(43354,534)
+console.log(order1,order2,order3)
+const calculateTotal1 = function(subTotal,tax) {
+    return subTotal+tax
+}
