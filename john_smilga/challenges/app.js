@@ -69,3 +69,19 @@ console.log(car.colors[0])
 car.drive()
 car.stop()
 
+// 7th challenge - Conditionals
+const person1 ={
+    name: "Vinita",
+    age:25,
+    status:'resident'
+}
+const person2 ={
+    name: "Jatta",
+    age:23,
+    status:'resident'
+}
+if(person1.age>18 && person2.age>18 && person1.status==='resident' && person2.status==='resident'){
+    console.log("Both are eligible to marry")
+}else{
+    console.log("You both are cute wait for your eligibility")
+}
