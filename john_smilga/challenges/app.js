@@ -49,3 +49,23 @@ console.log(order1,order2,order3)
 const calculateTotal1 = function(subTotal,tax) {
     return subTotal+tax
 }
+
+// 6th challenge - Objects
+const car ={
+    make:"Ferrari",
+    model: 2022,
+    year: 2023,
+    colors:["red","yellow","green","grey","white"],
+    hybrid:false,
+    drive: function(){
+        console.log("Wanna a drive!!!")
+    },
+    stop:function(){
+        console.log("Please! Stop the car")
+    }
+}
+console.log(car.make)
+console.log(car.colors[0])
+car.drive()
+car.stop()
+
