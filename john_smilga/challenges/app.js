@@ -85,3 +85,18 @@ if(person1.age>18 && person2.age>18 && person1.status==='resident' && person2.st
 }else{
     console.log("You both are cute wait for your eligibility")
 }
+
+
+// 8th challenge - Strings
+// const fullName = (firstName,lastName) =>{
+//     const result = firstName + " w/o " + lastName
+//     return result.toUpperCase()
+// }
+// console.log(fullName("Vinita","Ravinder"))
+const fullName = ({firstName,lastName}) =>{
+    const result = `${firstName} ${lastName}`
+    return result.toUpperCase()
+}
+console.log(fullName({firstName:"Vinita",lastName:"Ravinder"}))
+
+// 9th challenge - 
