@@ -13,4 +13,5 @@ if(true){
     const name = "Viniya"
     console.log(name)
 }
+
 console.log(name)
