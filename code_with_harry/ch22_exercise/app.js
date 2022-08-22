@@ -7,7 +7,7 @@ a = Number.parseInt(a)
 for(let i = 1;i<=100;i++){
 let score = 100-i
 if(b == a){
-    document.write(`You have left ${score} left and the original number is ${b}`)
+    document.write(`You have ${score} life and the original number is ${b}`)
     console.log(`Your Score is : ${score}`)
     break
 }else if(b > a){
