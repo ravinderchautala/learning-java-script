@@ -2,7 +2,7 @@
 var v = "Vinita"
 
 // Using let
-let a = "Anu"
+let a = "Annu"
 
 // using const (CONSTANt)  - can't re-assign
 const hname = "Ravinder"
