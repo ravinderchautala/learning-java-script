@@ -1,20 +1,37 @@
 // Declaration
-function hello(){
-    console.log("Hello There Vinita")
-    console.log("Hello There Anu")
-    console.log("Hello There Jatta")
+function hello() {
+    console.log('Hello there Vinita');
+    console.log('Hello there Annu');
+    console.log('Hello there Ravinder');
 }
 // Invoking
-hello()
+hello();
 
 // function with parameters
-function greet(name){
-    console.log("Hello There "+ name)
+function greet(name) {
+    console.log('Hello there ' + name);
 }
-greet("Vinita")
+let nam = "Vinita";
+greet(nam);
+
 
 // Return in Functions
-let pow = (a,b)=>{
-    return a**b
+const wallHeight = 80;
+
+function calc(value) {
+    const newValue = value * 2.54;
+    return newValue;
 }
-console.log(pow(4,5))
+
+const width = calc(100);
+const height = calc(wallHeight);
+
+const dim = [width, height];
+console.log(dim);
+
+// function expression
+const add = function (num1, num2) {
+    return num1 + num2;
+}
+const value = add(45, 89);
+console.log(value);
