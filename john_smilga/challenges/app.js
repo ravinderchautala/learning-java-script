@@ -37,6 +37,17 @@ console.log(firstFruit, fruits);
 
 
 // 5th challenge - Functions
+// function calculateTotal(subTotal, tax) {
+//     return subTotal + tax;
+// }
+const calculateTotal = function (subTotal, tax) {
+    return subTotal + tax;
+}
+
+const order1 = calculateTotal(100, 20);
+const order2 = calculateTotal(90, 18);
+const order3 = calculateTotal(150, 30);
+console.log(order1, order2, order3);
 
 // 6th challenge - Objects
 
