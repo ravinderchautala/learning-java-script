@@ -27,6 +27,13 @@ console.log(averageScore);
 
 
 // 4th challenge - Arrays
+const fruits = ['Mango', 'Apple', 'Banana', 'Pineapple', 'Orange', 9];
+
+let firstFruit = fruits[0];
+
+fruits[fruits.length - 1] = 'Guava';
+
+console.log(firstFruit, fruits);
 
 
 // 5th challenge - Functions

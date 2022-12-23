@@ -1,8 +1,7 @@
 // Arrays
 
-const friends = ["Vinita","Anu","Ravinder","Jatta",35,undefined,null]
-let bestFriend = friends[1]
-console.log(friends[0])
-console.log(friends)
-console.log(bestFriend)
-console.log(typeof friends[6])
+const friends = ['Vinita', 'Ravinder', 'Annu', 'Jatta', 4, null, undefined];
+
+let bestFriend = friends[2]
+console.log(friends[0]);
+console.log(bestFriend);
