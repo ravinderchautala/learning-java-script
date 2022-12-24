@@ -51,6 +51,25 @@ console.log(order1, order2, order3);
 
 // 6th challenge - Objects
 
+const car = {
+    make: "Ferrari",
+    model: '812 GTS',
+    year: 2022,
+    colors: ['Red', 'Yelllow', 'Blue', 'Grey'],
+    hybrid: false,
+    keys: null,
+    drive: function () {
+        console.log('hey do you want to take a test drive');
+    },
+    stop: function () {
+        console.log('please stop the car if engine make different noise');
+    }
+};
+console.log(car.make);
+console.log(car.colors[0]);
+car.drive();
+car.stop();
+
 // 7th challenge - Conditionals
 
 // 8th challenge - Strings
