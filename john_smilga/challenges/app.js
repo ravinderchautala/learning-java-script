@@ -57,7 +57,6 @@ const car = {
     year: 2022,
     colors: ['Red', 'Yelllow', 'Blue', 'Grey'],
     hybrid: false,
-    keys: null,
     drive: function () {
         console.log('hey do you want to take a test drive');
     },
