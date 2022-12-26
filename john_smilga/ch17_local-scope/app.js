@@ -1,15 +1,15 @@
 let name = "Vinita"
 
 
-// console.log(`Her name is ${name}`);
+console.log(`Her name is ${name}`);
 
-function call(){
+function call() {
     const name = "Annu"
     console.log(name);
 }
 call()
 
-if(true){
+if (true) {
     const name = "Viniya"
     console.log(name)
 }
