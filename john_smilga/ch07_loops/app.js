@@ -13,7 +13,6 @@ do {
 } while (money < 10)
 
 //  for loop
-let i;
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("Vinita")
 }
