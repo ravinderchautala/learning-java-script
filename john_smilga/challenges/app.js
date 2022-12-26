@@ -70,6 +70,28 @@ car.drive();
 car.stop();
 
 // 7th challenge - Conditionals
+const person1 = {
+    name: 'Vinita',
+    age: 25,
+    status: 'resident',
+
+}
+const person2 = {
+    name: 'Annu',
+    age: 23,
+    status: 'tourist',
+}
+
+if (person1.age > 18 && person1.status === 'resident') {
+    console.log("you are eligible to marry with me");
+} else {
+    console.log("you are not eligible to marry with me");
+}
+if (person2.age > 18 && person2.status === 'resident') {
+    console.log("you are eligible to marry with me");
+} else {
+    console.log("you are not eligible to marry with me");
+}
 
 // 8th challenge - Strings
 
