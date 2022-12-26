@@ -3,10 +3,11 @@ name = "Annu"
 
 // console.log(`Her name is ${name}`);
 
-function call(){
+function call() {
     console.log(name);
     name = "Vinita"
-    function inner(){
+    console.log(name);
+    function inner() {
         name = "inner name value"
         console.log(`This value from inner function ${name}`)
     }
@@ -14,7 +15,7 @@ function call(){
 }
 call()
 
-if(true){
+if (true) {
     console.log(name);
     name = "Annu"
 }
