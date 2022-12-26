@@ -1,10 +1,10 @@
-const num1= 3
-const num2 = 5
+const a = 25;
+const b = 25;
 
-if(num2<num1){
-    console.log("vinita")
-}else if(num1==num2){
-    console.log("Anu")
-}else{
-    console.log("RavinderVinita")
+if (a > b) {
+    console.log("first number is bigger");
+} else if (b > a) {
+    console.log("second number is bigger");
+} else {
+    console.log("both umbers are equal");
 }
