@@ -1,40 +1,37 @@
-let names = ['Vinita', 'Ravinder','Anu','Jatta','Kachari']
+const names = ['Vinita', 'Ravinder', 'Annu', 'Jatta', 'Kachari']
 
 // length
 console.log(names.length)
-console.log(names[4])
+console.log(names[2])
 
-// concat
-const lastName = ['Rahar','Rolan','Choudhary']
-const allNames = names.concat(lastName)
-console.log(allNames)
-
-// reverse
-console.log(allNames.reverse())
+const lastNames = ['Rolan', 'Rolan', 'Rahar', 'Rahar', 'Hupp'];
+const allNames = names.concat(lastNames);
+// console.log(allNames);
+// console.log(allNames.reverse());
 
 // unshift
-allNames.unshift('chautala')
-allNames.unshift('Kachar ko beej')
-console.log(allNames)
+allNames.unshift('kachar')
+allNames.unshift('tinger')
+console.log(allNames);
 
-// shift
 allNames.shift()
 allNames.shift()
 allNames.shift()
 allNames.shift()
-console.log(allNames)
+console.log(allNames);
 
-// push
-allNames.push('chautala')
-allNames.push('Kachar ko beej')
-console.log(allNames)
+allNames.push('Vinita')
+allNames.push('Ravinder')
+console.log(allNames);
 
-// pop
+
 allNames.pop()
 allNames.pop()
-console.log(allNames)
+allNames.pop()
+allNames.pop()
+console.log(allNames);
 
-// splice- mutates the original array
-const sn = allNames.splice(2)
-console.log(sn)
-console.log(allNames)
+// splice - mutates original array
+const special = allNames.splice(0, 2);
+console.log(special);
+console.log(allNames);
