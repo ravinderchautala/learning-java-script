@@ -94,5 +94,10 @@ if (person2.age >= 18 && person2.status === 'resident') {
 }
 
 // 8th challenge - Strings
+function fullName(firstName, lastName) {
+    const value = `hey ${firstName} ${lastName} this is Ravinder here`;
+    console.log(value.toUpperCase());
+}
+fullName('Vinita', 'Rahar');
 
 // 9th challenge - 
