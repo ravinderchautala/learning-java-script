@@ -4,14 +4,16 @@
 // uses value from the original aarya when making a new array
 
 
-const people =[
-    {name:'Vinita',age:23,position:'developer'},
-    {name:'Annu',age:21,position:'Math expert'},
-    {name:'Ravinder',age:23,position:'designer'}
+const people = [
+    { name: 'Vinita', age: 23, position: 'developer' },
+    { name: 'Annu', age: 21, position: 'Math expert' },
+    { name: 'Ravinder', age: 23, position: 'designer' }
 ]
 
-const ages = people.map(function (person){
-    console.log(person)
-    return "heelo"
+const ages = people.map(function (person) {
+    return person.age;
 })
-console.log(ages)
+const newPeople = people.map(function (person) {
+    return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 }
+})
+console.log(newPeople)
