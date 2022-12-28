@@ -100,4 +100,46 @@ function fullName(firstName, lastName) {
 }
 fullName('Vinita', 'Rahar');
 
-// 9th challenge - 
+// 9th challenge - Arrays methods
+
+const students = [{ id: 1, name: 'Vinita', score: 100, subject: 'Maths' }, { id: 2, name: 'Ravinder', score: 89, subject: 'coding' }, { id: 3, name: 'Annu', score: 100, subject: 'Maths' }, { id: 4, name: 'Jatta', score: 85, subject: 'java' }]
+console.log(students);
+
+// map method
+const updatedStudents = students.map(function (student) {
+    student.role = 'student';
+    return student;
+})
+console.log(updatedStudents);
+
+// filter method
+const filterStudents = students.filter(function (student) {
+    return student.score >= 90;
+})
+console.log(filterStudents);
+
+// find method
+const specific = students.find(function (student) {
+    return student.id === 3;
+})
+console.log(specific);
+
+// reduce method
+const avgScore = students.reduce(function (acc, item) {
+
+    return acc + item.score;
+}, 0) / students.length;
+
+console.log(avgScore);
+
+const survey = students.reduce(function (survey, student) {
+    const favSubject = student.subject;
+    if (survey[favSubject]) {
+        survey[favSubject] += 1;
+    } else {
+        survey[favSubject] = 1;
+    }
+    return survey
+}, {})
+
+console.log(survey);
