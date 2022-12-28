@@ -7,7 +7,6 @@ const btn = document.getElementById('btn');
 btn.style.color = "white";
 btn.style.backgroundColor = 'aqua';
 
-
 // document.getElementById('btn').style.backgroundColor = 'aqua';
 
 // document.getElementById('btn').style.color = 'white';
