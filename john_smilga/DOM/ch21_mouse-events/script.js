@@ -4,7 +4,7 @@
 // mouseEnter - moved onto an element
 // mouseLeave - moved out of an element
 
-const heading = document.querySelector('h1');
+const heading = document.querySelector('h2');
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', function () {
@@ -16,9 +16,9 @@ btn.addEventListener('mousedown', function () {
 btn.addEventListener('mouseup', function () {
     console.log('mouse up');
 })
-btn.addEventListener('mouseleave', function () {
-    console.log('mouse out');
+heading.addEventListener('mouseleave', function () {
+    heading.classList.remove('red');
 })
-btn.addEventListener('mouseenter', function () {
-    console.log('mouse Entered');
+heading.addEventListener('mouseenter', function () {
+    heading.classList.add('red');
 })
