@@ -5,8 +5,9 @@ const values = JSON.parse(localStorage.getItem('friends'));
 console.log(values[0]);
 
 let fruits;
-
+let count = 0;
 if (localStorage.getItem('fruits')) {
+    localStorage.clear();
     fruits = JSON.parse(localStorage.getItem('fruits'));
 }
 else {
