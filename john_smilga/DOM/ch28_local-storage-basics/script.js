@@ -7,7 +7,7 @@ console.log(values[0]);
 let fruits;
 let count = 0;
 if (localStorage.getItem('fruits')) {
-    localStorage.clear();
+    // localStorage.clear();
     fruits = JSON.parse(localStorage.getItem('fruits'));
 }
 else {
@@ -15,6 +15,6 @@ else {
 }
 
 console.log(fruits);
-fruits.push('Apple');
+// fruits.push('Apple');
 fruits.push('Orange');
 localStorage.setItem('fruits', JSON.stringify(fruits))
