@@ -6,13 +6,13 @@ while (amount > 0) {
 }
 
 // do while loop
-let money = 0
+let money = 0;
 do {
-    console.log('You have ' + money + ' dollars')
-    money++
-} while (money < 10)
+    console.log('You have ' + money + ' dollars');
+    money++;
+} while (money < 10);
 
 //  for loop
 for (let i = 0; i < 10; i++) {
-    console.log("Vinita")
+    console.log(`The number is ${i}`);
 }

@@ -110,13 +110,13 @@ const person2 = {
     status: "Committed"
 }
 
-if (person1.age > 18 && person1.status === "single") {
+if (person1.age >= 18 && person1.status === "single") {
     console.log("you are eligible");
 } else {
     console.log("you are not eligible");
 }
-if (person2.age > 18 && person2.status === "single") {
-    console.log("you are eligible");
-} else {
-    console.log("you are not eligible");
-}
+// if (person2.age >= 18 && person2.status === "single") {
+//     console.log("you are eligible");
+// } else {
+//     console.log("you are not eligible");
+// }
