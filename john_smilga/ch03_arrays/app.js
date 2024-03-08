@@ -1,7 +1,9 @@
 // Arrays
 
-const friends = ['Vinita', 'Ravinder', 'Annu', 'Jatta', 4, null, undefined];
+const friends = ["Ravinder", 'Shatty', 'shelu', 'sumit', 0, null, undefined]
 
-let bestFriend = friends[2]
-console.log(friends[0]);
+const bestFriend = friends[1];
+friends[4] = "lol";
 console.log(bestFriend);
+console.log(friends);
+console.log(friends[4]);
