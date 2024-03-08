@@ -1,20 +1,18 @@
 // Declaration
 function hello() {
-    console.log('Hello there Vinita');
-    console.log('Hello there Annu');
-    console.log('Hello there Ravinder');
+    console.log("hello world");
+    console.log("hello world");
+    console.log("hello world");
 }
 // Invoking
 hello();
 
 // function with parameters
-function greet(name) {
-    console.log('Hello there ' + name);
+function print(name) {
+    console.log("toh kese hain " + name);
 }
-let nam = "Vinita";
-greet(nam);
-
-
+const nam = "AAPLOG"
+print(nam)
 // Return in Functions
 const wallHeight = 80;
 

@@ -52,3 +52,44 @@ const firstFruit = fruits[0];
 fruits[7] = "Lichi";
 console.log(firstFruit);
 console.log(fruits);
+
+/*
+============
+Challenge-5
+============
+*/
+// function calculateTotal(subTotal, tax) {
+//     return subTotal + tax;
+// 
+const calculateTotal = function (subTotal, tax) {
+    return subTotal + tax;
+}
+
+var order1 = calculateTotal(67, 34);
+var order2 = calculateTotal(76, 21);
+var order3 = calculateTotal(43, 65);
+console.log(order1, order2, order3);
+
+
+/*
+============
+Challenge-6
+============
+*/
+const car = {
+    make: "bugati",
+    model: "Mistral",
+    year: 2023,
+    colors: ['red', 'yellow', 'dark', 'white'],
+    hybrid: true,
+    drive: function () {
+        console.log("Hey try a test drive first!");
+    },
+    stop: function () {
+        console.log("Your Test drive is Over!");
+    }
+}
+console.log(car.make);
+console.log(car.colors[0]);
+car.drive();
+car.stop();
