@@ -1,37 +1,37 @@
-const names = ['Vinita', 'Ravinder', 'Annu', 'Jatta', 'Kachari']
+const names = ['Chuatala', 'Ravinder', 'Developer', 'Jatta', 'Player']
 
 // length
 console.log(names.length)
-console.log(names[2])
+console.log(names[1])
+console.log(names[names.length - 1])
 
-const lastNames = ['Rolan', 'Rolan', 'Rahar', 'Rahar', 'Hupp'];
-const allNames = names.concat(lastNames);
-// console.log(allNames);
-// console.log(allNames.reverse());
-
-// unshift
-allNames.unshift('kachar')
-allNames.unshift('tinger')
+// concat
+const lastNames = ['Rolan', 'Kumar', 'Albatross'];
+const allNames = names.concat(lastNames)
 console.log(allNames);
 
-allNames.shift()
-allNames.shift()
-allNames.shift()
-allNames.shift()
+// reverse
+console.log(allNames.reverse());
+
+// unshift- to add an item in front of the array
+allNames.unshift('chucha');
 console.log(allNames);
 
-allNames.push('Vinita')
-allNames.push('Ravinder')
+// shift - to delete an item from front of the array
+allNames.shift();
 console.log(allNames);
 
-
-allNames.pop()
-allNames.pop()
-allNames.pop()
-allNames.pop()
+// push - to add an item in last of the array
+allNames.push("Krishana");
+allNames.push("Ram");
 console.log(allNames);
 
-// splice - mutates original array
-const special = allNames.splice(0, 2);
-console.log(special);
+// pop - to delete an item from the end of the array
+allNames.pop();
+console.log(allNames);
+
+// splice - create a new array from another array and mutates the original one
+
+let specificNames = allNames.splice(3, 2);
+console.log(specificNames);
 console.log(allNames);

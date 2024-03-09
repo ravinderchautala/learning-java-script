@@ -10,7 +10,6 @@ function total(arr) {
         console.log('Hey listen you spending too much');
     } else {
         console.log('whoaaa!! you spending less than 100');
-
     }
     return total;
 }

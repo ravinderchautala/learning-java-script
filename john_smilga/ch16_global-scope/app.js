@@ -1,22 +1,22 @@
-let name = "Vinita"
-name = "Annu"
+let name = "Ravinder";
+name = "Jatta";
 
-// console.log(`Her name is ${name}`);
+// console.log(`Hir name is ${name}`);
 
 function call() {
     console.log(name);
-    name = "Vinita"
+    name = "Ravinder";
     console.log(name);
     function inner() {
-        name = "inner name value"
-        console.log(`This value from inner function ${name}`)
+        name = "inner name value";
+        console.log(`This value from inner function ${name}`);
     }
-    inner()
+    inner();
 }
-call()
+call();
 
 if (true) {
     console.log(name);
-    name = "Annu"
+    name = "Jatta";
 }
-console.log(name)
+console.log(name);

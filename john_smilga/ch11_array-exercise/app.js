@@ -1,5 +1,5 @@
-const names = ["Vinita", "Annu", "Ravinder", "Jatta"]
-const lastName = "Choudhary"
+const names = ["Ravinder", "Jatta"]
+const lastName = "Chautala"
 let newArray = []
 
 for (let i = 0; i < names.length; i++) {
