@@ -120,3 +120,24 @@ if (person1.age >= 18 && person1.status === "single") {
 // } else {
 //     console.log("you are not eligible");
 // }
+
+/*
+=====================
+String Challenge-8
+=====================
+*/
+
+// function fullName(fName, lName) {
+//     let funame = `${fName} ${lName}`;
+//     return funame.toUpperCase();
+// }
+// let res = fullName("Ravinder", "Chautala");
+// console.log(res);
+
+
+function fullName({ fName, lName }) {
+    let funame = `${fName} ${lName}`;
+    return funame.toUpperCase();
+}
+
+console.log(fullName({ lName: "Chautala", fName: "Ravinder" }));
