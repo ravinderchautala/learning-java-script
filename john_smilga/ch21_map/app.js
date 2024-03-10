@@ -1,12 +1,12 @@
 // map
 // does return a new array
-// does not chnage size of original arrray
-// uses value from the original aarya when making a new array
+// does not chnage size of original array
+// uses value from the original array when making a new array
 
 
 const people = [
-    { name: 'Vinita', age: 23, position: 'developer' },
-    { name: 'Annu', age: 21, position: 'Math expert' },
+    { name: 'Jatta', age: 23, position: 'developer' },
+    { name: 'chautala', age: 21, position: 'The Boss' },
     { name: 'Ravinder', age: 23, position: 'designer' }
 ]
 

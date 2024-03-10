@@ -8,3 +8,12 @@ const person = people.find(function (person) {
     return person.id === 1;
 })
 console.log(person);
+
+
+
+
+
+
+
+
+

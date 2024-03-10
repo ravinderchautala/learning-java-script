@@ -9,11 +9,12 @@ const people = [
     { name: 'Ravinder', age: 23, position: 'designer' }
 ]
 
-function person(item) {
-    console.log(item.age)
+function showPerson(person) {
+    console.log(person.age)
 }
-people.forEach(person)
 
-people.forEach(function (item) {
-    console.log(item.name);
+people.forEach(showPerson);
+
+people.forEach(person => {
+    console.log(person.name);
 })
