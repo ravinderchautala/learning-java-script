@@ -14,6 +14,6 @@ function greet(name,cb){
     const myName = "Ravinder"
     console.log(`${cb(name)} ,My name is ${myName}`)
 }
-greet("Vinita",morning)
-greet("Vinita",afterNoon)
-greet("Vinita",evening)
+greet("Vinita", morning);
+greet("Vinita", afterNoon);
+greet("Vinita", evening);

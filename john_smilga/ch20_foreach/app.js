@@ -1,5 +1,5 @@
 // forEach
-// does not return an array
+// does not return a new array
 
 const people = [
     {

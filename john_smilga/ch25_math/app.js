@@ -5,15 +5,15 @@
 
 
 // const number = 25
-// const res = Math.sqrt(number)
+// const res = Math.sqrt(number);
 
-// const res = Math.PI
-
-
-// const res = Math.min(1, 2, 34, 25, 0)
+// const res = Math.PI;
 
 
-// const res = Math.max(1, 2, 34, 25, 0)
+// const res = Math.min(1, 2, 34, 25, 0);
+
+
+// const res = Math.max(1, 2, 34, 25, 0);
 
 
 // const res = Math.random() * 10;
