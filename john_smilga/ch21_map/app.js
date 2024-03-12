@@ -16,4 +16,4 @@ const ages = people.map(function (person) {
 const newPeople = people.map(function (person) {
     return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 }
 })
-console.log(newPeople)
+console.log(newPeople);

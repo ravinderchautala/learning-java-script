@@ -5,28 +5,24 @@ Array Methods Challenge-9
 */
 
 const updatedStudents = students.map(function (student) {
-    student.role = 'student';
-    return student;
+    return student.role = 'Student';
 })
 // console.log(students);
 
 const highScores = students.filter(function (student) {
-    if (student.score >= 80) {
-        return student;
-    }
+    return student.score >= 90
 })
 // console.log(highScores);
 
 const specificId = students.find(function (student) {
-    return student.id;
+    return student.id === 1;
 })
 // console.log(specificId);
 
-const avgScore = students.reduce(function (scoreTotal, student) {
-    scoreTotal += student.score;
-    return scoreTotal;
-}, 0) / students.length;
 
+const avgScore = students.reduce(function (score, student) {
+    return score += student.score;
+}, 0) / students.length;
 // console.log(avgScore);
 
 const survey = students.reduce(function (survey, student) {
